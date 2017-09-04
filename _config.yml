@@ -1,6 +1,6 @@
 # site settings
 title: Vedrana Vidulin
-brief-intro: Department of Knowledge Technologies, Jožef Stefan Institute
+brief-intro: "" #Department of Knowledge Technologies, Jožef Stefan Institute
 baseurl: "" # the subpath of the site, e.g. /blog
 url: "http://vedranavidulin.com" # the base hostname & protocol for the site
 
