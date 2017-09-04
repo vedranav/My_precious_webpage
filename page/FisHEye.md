@@ -12,11 +12,11 @@ type: page2
 The number of sequenced microbial genomes and metagenomes continuously grows and with them the number of genes with unknown biological function. Even in well-known pathogens, such as *Mycobacterium tuberculosis*, a quarter of genes are of unknown function. To address this issue, many gene function prediction (GFP) methods have been proposed. I am interested in the methods that develop different feature sets for GFP and apply machine learning algorithms to infer functions for genes. The focus of the FisHEye project is to improve the capabilities of GFP methods to assign a broad spectrum of functions to poorly characterized genes using novel machine learning methodologies.
 
 #### Principal Investigator
-Vedrana Vidulin<br>
-Faculty of information studies<br>
-Ljubljanska cesta 31A<br>
-8000 Novo mesto<br>
-Slovenia<br>
+Vedrana Vidulin
+Faculty of information studies
+Ljubljanska cesta 31A
+8000 Novo mesto
+Slovenia
 e-mail: [vedrana.vidulin@fis.unm.si](mailto:vedrana.vidulin@fis.unm.si)
 
 #### Funding
