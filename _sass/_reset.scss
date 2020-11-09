@@ -29,10 +29,13 @@ html {
 body {
     font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
     color: #333;
-    background-image: url(https://ooo.0o0.ooo/2016/06/20/5768c606cf9cb.jpg);
+    //background-image: url(https://ooo.0o0.ooo/2016/06/20/5768c606cf9cb.jpg);
+    background-image: url("/images/double-bubble-dark.png");
     position: relative;
     min-height: 100%;
-    padding-bottom: 190px;
+    padding-bottom: 75px;
+    //background-repeat: repeat;
+    //background-size: cover; /* Resize the background image to cover the entire container */
 }
 a {
     text-decoration: none;
