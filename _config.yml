@@ -1,6 +1,6 @@
 # site settings
 title: Vedrana Vidulin
-brief-intro: "Bioinformatics and machine learning expert"
+brief-intro: "Data scientist and bioinformatician"
 baseurl: "" # the subpath of the site, e.g. /blog
 url: "http://vedranavidulin.com" # the base hostname & protocol for the site
 

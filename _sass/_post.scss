@@ -2,15 +2,24 @@
     display: none;
 }
 .button {
+    width: 90px;
+    height: 25px;
     background-color: white;
+    color: #4d6dad;
+    font-size: medium;
+    margin: 4px 0px;
+    padding: 8px 15px;
     border: 2px solid #4d6dad;
     border-radius: 8px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        background-color: #e6f2ff;
+    }
+    &:active {
+        border-color: #e6f2ff;
+    }
 }
 .page[post] {
     .label {

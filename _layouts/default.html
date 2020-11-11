@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
+        {% if site.google_analytics_id %}
+            {% include cookiesSettings.html %}
+            {% include cookieConsentBanner.html %}
+        {% endif %}
 
-    {% include header.html %}
+        {% include header.html %}
 
-        {{ content }}
+            {{ content }}
 
-    {% include footer.html %}
-    {% include backToTop.html %}
+        {% include footer.html %}
+        {% include backToTop.html %}
 
-    <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-    <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-  </body>
+        <script src="{{ " /js/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+        <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+
+        {% if site.google_analytics_id %}
+            <script src="{{ " /js/cookieConsent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+        {% endif %}
+    </body>
 
 </html>

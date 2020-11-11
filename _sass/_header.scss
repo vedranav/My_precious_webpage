@@ -107,6 +107,9 @@ header {
             small {
                 margin-left: 10px;
                 font-size: 12px;
+                @media screen and (max-width: 399px) {
+                    display: none;
+                }
             }
             .menu{
                 display: inline-block;

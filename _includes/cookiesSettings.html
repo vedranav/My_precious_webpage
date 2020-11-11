@@ -1,0 +1,19 @@
+<div id = "cookiesSettings" class = "modal">
+    <div class = "modal-box">
+        <div class = "modal-title">
+            <span class = "modal-close" onclick = "$('#cookiesSettings').css('display', 'none')">&times;</span>
+        </div>
+        <div class="modal-content">
+            <h1>Strictly necessary cookies</h1>
+            <div class = "modal-option">These cookies are essential for normal operation of the website and are always turned on.</div>
+            <h1>Optional cookies</h1>
+            <div class = "modal-option">
+                <div class = "modal-switch"><label class = "switch"><input type = "checkbox" checked id = "analyticsToggle"><span class = "slider round"></span></label></div>
+                <div class = "modal-option-explanation">These cookies help me understand how you use the website to make it even better.</div>
+            </div>
+            <div class = "modal-buttons">
+                <button class = "modal-button" onclick = "saveCookiesSettings()">Save settings</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -103,6 +103,7 @@
             bottom: 190px;
         }
         .side {
+            min-width: 230px;
             box-sizing: border-box;
             background-color: #f8f8fd;
             box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3), 0 0 30px rgba(10, 10, 0, 0.1) inset;
@@ -142,12 +143,12 @@
         }
     }
 }
-@media screen and (max-width:1200px) and (min-width: 770px) {
+@media screen and (max-width:1200px) and (min-width: 980px) {
     .page {
         width: 90%;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 980px) {
     .page {
         width: 95%;
         .left {
@@ -227,4 +228,8 @@
             transform: scale(1);
         }
     }
+}
+
+.table-wrapper {
+    overflow-x: scroll;
 }

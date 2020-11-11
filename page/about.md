@@ -17,7 +17,6 @@ I am a researcher at the Department of Knowledge Technologies at Jožef Stefan I
 
 <!--![Vedrana Vidulin](/images/Vedrana_Vidulin_small.png)-->
 
-
 [CV](/files/CV-Vedrana_Vidulin.pdf){: .button}
 
 ## Education

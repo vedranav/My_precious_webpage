@@ -40,6 +40,8 @@ The 2010 data was intended for testing. It contains the same set of attributes a
 
 Besides “standard” data sets that contain attributes collected from the statistical databases, there are two types of data sets that contain constructed attributes. The data sets marked as “modified” contain the attributes constructed by a human to test the hypotheses posed during preliminary analysis with the “standard” data (while executing Human-Machine Data Mining interactive algorithm). In contrast, the data sets marked as “constructed” contain automatically constructed attributes, which are obtained by executing sum, min and max functions on pairs of attributes.
 
+<div class = "table-wrapper" markdown = "block">
+
 | name                                | num.       | nom. | ex. | class              | download                                                                                                                                                                                                                                    |
 :-------------------------------------|-----------:|-----:|----:|:------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Higher education                    | 60   | 0    | 167 | discrete           | [csv](/files/datasets/Higher-Education-60-167-Discrete.csv.zip), [arff](/files/datasets/Higher-Education-60-167-Discrete.arff.zip)                                                                                                          |
@@ -59,6 +61,8 @@ Besides “standard” data sets that contain attributes collected from the stat
 | R&D-constructed-2010                | 3432 | 0    | 78  | discrete           | [csv](/files/datasets/R&D-3432-78-Discrete-2010.csv.zip), [arff](/files/datasets/R&D-3432-78-Discrete-2010.arff.zip)                                                                                                                        |
 | High-level knowledge                | 108  | 0    | 167 | discrete           | [csv](/files/datasets/High-level_Knowledge-Discrete.csv.zip), [arff](/files/datasets/High-level_Knowledge-Discrete.arff.zip)                                                                                                            |
 | High-level knowledge                | 108  | 0    | 167 | numerical (in US$) | [csv](/files/datasets/High-level_Knowledge-Numerical.csv.zip), [arff](/files/datasets/High-level_Knowledge-Numerical.arff.zip)                                                                                                          |
+
+</div>
 
 In the table:
 - num. = numerical attributes

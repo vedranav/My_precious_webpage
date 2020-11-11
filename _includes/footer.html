@@ -7,7 +7,6 @@
             🍪 <a href = 'javascript:cookiesSettings()' title = "Change cookie settings">Cookie settings</a>
         </p>
         <p class = "contact">
-            Contact me at:
             {% if site.email %}
               <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %}
             {% if site.twitter_username %}
@@ -20,9 +19,4 @@
               <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %}
         </p>
     </div>
-    {% if site.google_analytics_id %}
-        <script src = "/js/cookieConsent.js" charset = "utf-8"></script>
-        <script src = "/js/modalDialog.js" charset = "utf-8"></script>
-        <script>setCookiesBanner()</script>
-    {% endif %}
 </footer>
