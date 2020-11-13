@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-icon: address-card
+icon: id-card
 type: page
 ---
 

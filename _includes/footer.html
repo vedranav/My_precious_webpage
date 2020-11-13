@@ -7,8 +7,7 @@
             🍪 <a href = 'javascript:cookiesSettings()' title = "Change cookie settings">Cookie settings</a>
         </p>
         <p class = "contact">
-            {% if site.email %}
-              <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %}
+            <a href="/contact/" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
             {% if site.twitter_username %}
               <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %}
             {% if site.linkedIn_username %}
@@ -19,4 +18,5 @@
               <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %}
         </p>
     </div>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </footer>

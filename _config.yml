@@ -10,13 +10,15 @@ permalink: /:year/:month/:day/:title/
 twitter_username: Vedrana_Vidulin
 facebook_username: vedrana.vidulin
 github_username:  vedranav
-email: vedrana.vidulin@gmail.com
 linkedIn_username: vedrana-vidulin
 
 description_footer: <i class="fa fa-copyright" aria-hidden="true"></i> 2020 by Vedrana Vidulin
 
 # statistic analysis
 google_analytics_id: UA-98660811-1
+
+# pageclip contact form id
+pageclip_contact_form_id: mFeqfBadhhDUeokfFwQMF07dtnManvuv/contact-form
 
 # build settings
 markdown: kramdown

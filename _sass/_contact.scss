@@ -1,0 +1,55 @@
+#contactForm {
+    textarea, input, button, select {
+        font-family: inherit;
+        font-size: inherit;
+    }
+    label {
+        display: block;
+        margin-top: 15px;
+    }
+    input, textarea {
+        display: block;
+        border: 1px solid rgba(109,77,173, 0.5);
+        border-radius: 3px;
+        padding: 4px;
+        max-width: 100%;
+    }
+    button {
+        width: 130px;
+        height: 60px;
+        background-color: white;
+        color: #4d6dad;
+        font-size: large;
+        margin-top: 15px;
+        padding: 8px 15px;
+        border: 2px solid #4d6dad;
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            background-color: #e6f2ff;
+        }
+        &:active {
+            border-color: #e6f2ff;
+        }
+    }
+    #name {
+        width: 300px;
+    }
+    #email {
+        width: 300px;
+    }
+    #subject {
+        width: 500px;
+    }
+    #message {
+        width: 100%;
+        height: 350px;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 500px;
+        min-height: 200px;
+        wrap: hard;
+    }
+}
