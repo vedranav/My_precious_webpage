@@ -4,6 +4,7 @@ title:  "Methods and Applications of Interactive Data Mining"
 date:   2014-12-20
 categories: [Interactive data mining]
 tags: [ interactive, interpretable, credible, machine_learning ]
+comments: true
 #excerpt: ?
 ---
 

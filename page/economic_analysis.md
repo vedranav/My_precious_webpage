@@ -3,6 +3,7 @@ layout: page
 title: Data Sets Constructed for Economic Analysis
 permalink: /economic-analysis/
 type: page2
+comments: true
 ---
 
 * content

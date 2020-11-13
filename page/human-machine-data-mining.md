@@ -3,6 +3,7 @@ layout: page
 title: A Program for Interactive Mining of Complex Domains
 permalink: /human-machine-data-mining/
 type: page2
+comments: true
 ---
 
 * content

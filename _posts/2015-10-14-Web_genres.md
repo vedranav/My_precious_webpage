@@ -4,6 +4,7 @@ title:  "Web Genre Classification"
 date:   2015-10-14
 categories: [Web genre classification]
 tags: [ hierarchical_multi-label_classification, machine_learning ]
+comments: true
 #excerpt: ?
 ---
 

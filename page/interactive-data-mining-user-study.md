@@ -3,6 +3,7 @@ layout: page
 title: User Study
 permalink: /interactive-data-mining-user-study/
 type: page2
+comments: true
 ---
 
 * content
