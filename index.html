@@ -68,7 +68,7 @@ layout: default
                     Recent Posts
                 </div>
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
+                    {% for post in site.posts offset: 0 limit: 5 %}
                         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
@@ -143,7 +143,7 @@ layout: default
                     <i class="fa fa-twitter"></i>
                     Tweets
                 </div>
-                <a class = "twitter-timeline" data-theme = "light" href = "https://twitter.com/Vedrana_Vidulin?ref_src=twsrc%5Etfw">Tweets by Vedrana_Vidulin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class = "twitter-timeline" data-theme = "light" href = "https://twitter.com/{{site.twitter_username}}?ref_src=twsrc%5Etfw">Tweets by Vedrana_Vidulin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>

@@ -2,8 +2,8 @@
     display: none;
 }
 .button {
-    width: 90px;
-    height: 25px;
+    width: 150px;
+    height: 28px;
     background-color: white;
     color: #4d6dad;
     font-size: medium;
@@ -43,7 +43,7 @@
         transition: 0.5s ease;
         &:hover {
             color: #223253;
-            background-color: #f4efeb;
+            background-color: #e6f2ff; //#f4efeb;
         }
     }
     .left {

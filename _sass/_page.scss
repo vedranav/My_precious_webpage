@@ -22,9 +22,11 @@
         box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
         >h1 {
             margin-bottom: -10px;
+            white-space: wrap;
         }
         a:not([title]){
-            word-break: break-all;
+            //word-break: break-all;
+            white-space: wrap;
         }
         ul {
             >h2 {
@@ -159,6 +161,7 @@
             >h1 {
                 font-size: 25px;
                 margin-bottom: -10px;
+                white-space: wrap;
             }
             ul {
                 padding-left: 20px;
@@ -230,6 +233,37 @@
     }
 }
 
+@media screen and (max-width: 344px) {
+    #vvPicture {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .table-wrapper {
     overflow-x: scroll;
+}
+
+.quoteBox {
+    border-left: 8px solid red;
+    padding-left: 8px;
+    margin: 12px 20px;
+    font-style: italic;
+    background-color: #FFE4C4;
+}
+
+#vvPicture {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#vvSig {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20px;
 }

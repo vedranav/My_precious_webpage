@@ -16,6 +16,6 @@ The aims of user study are:
 
 #### Questionnaire
 To this end we designed a questionnaire. The questionnaire, the table with results and the data used to construct models in the questionnaire are available below.
-- [questionnaire](/files/questionnaire.pdf)
-- [results](/files/results-of-user-study.pdf)
-- data set: [csv](/files/datasets/R&D-27-Selected-Attributes.csv.zip), [arff](/files/datasets/R&D-27-Selected-Attributes.arff.zip)
+- [questionnaire](http://vedranavidulin.com/assets/pdfs/questionnaire.pdf)
+- [results](http://vedranavidulin.com/assets/pdfs/results-of-user-study.pdf)
+- data set: [csv](http://vedranavidulin.com/assets/data/macroeconomic/R&D-27-Selected-Attributes.csv.zip), [arff](http://vedranavidulin.com/assets/data/macroeconomic/R&D-27-Selected-Attributes.arff.zip)

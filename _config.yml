@@ -7,12 +7,11 @@ url: "http://vedranavidulin.com" # the base hostname & protocol for the site
 permalink: /:year/:month/:day/:title/
 
 # profiles
-twitter_username: Vedrana_Vidulin
-facebook_username: vedrana.vidulin
+twitter_username: VedranaVidulin
 github_username:  vedranav
-linkedIn_username: vedrana-vidulin
+linkedIn_username: VedranaVidulin
 
-description_footer: <i class="fa fa-copyright" aria-hidden="true"></i> 2020 by Vedrana Vidulin
+description_footer: <i class="fa fa-copyright" aria-hidden="true"></i> 2021 by Vedrana Vidulin
 
 # statistic analysis
 google_analytics_id: UA-98660811-1

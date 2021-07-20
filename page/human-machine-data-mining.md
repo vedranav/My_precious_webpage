@@ -24,7 +24,7 @@ The HMDM program provides tools for:
 Based on credible relations and models, the human then constructs correct conclusions about the domain.
 
 #### HMDM Method
-The steps of the method are presented in the following two flowcharts: [HMDM algorithm](/files/HMDM_algorithm.pdf) and [delete attributes procedure](/files/DELETE_ATTRIBUTES_procedure.pdf).
+The steps of the method are presented in the following two flowcharts: [HMDM algorithm](http://vedranavidulin.com/assets/pdfs/HMDM_algorithm.pdf) and [delete attributes procedure](http://vedranavidulin.com/assets/pdfs/DELETE_ATTRIBUTES_procedure.pdf).
 
 #### Typical Applications of HMDM
 HMDM is intended for mining complex domains for which is assumed that they contain relations of different types and levels of importance.
@@ -45,12 +45,12 @@ Domains on which the HMDM method was used:
 
 #### Screenshots
 
-![Initial data mining screen](/images/Initial_Data_Mining.png)
+![Initial data mining screen](http://vedranavidulin.com/assets/images/Initial_Data_Mining.png)
 **Initial Data Mining screen** – An analysis begins with construction and examination of multiple models.
 <br>
 <br>
 
-![Modification Tools screen](/images/Modification_Tools.png)
+![Modification Tools screen](http://vedranavidulin.com/assets/images/Modification_Tools.png)
 **Modification Tools screen** – When an interesting model is selected for further analysis, the analysis continues by constructing additional models from attribute sets modified in an automatic or an interactive manner. The models are arranged in two graphs from which relations of different types and level of credibility are extracted.
 
 #### Requirements
@@ -67,7 +67,7 @@ The HMDM program is written in Java and can run on multiple OS platforms. To thi
 #### Download
 HMDM can be used free of charge for non-commercial applications.
 
-Current version of HMDM is 1.00 (released in November, 2013): [HMDM-1.00_setup.jar](/files/HMDM-1.00_setup.jar)
+Current version of HMDM is 1.00 (released in November, 2013): [HMDM-1.00_setup.jar](http://vedranavidulin.com/assets/tools/HMDM-1.00_setup.jar)
 
 #### Contributors
 - Vedrana Vidulin – method, program design, programming, web page
@@ -78,6 +78,3 @@ Current version of HMDM is 1.00 (released in November, 2013): [HMDM-1.00_setup.j
 I would like to thank to Marko Bohanec for the ideas on how to improve the HMDM method.
 
 I would also like to thank to the team behind Graphviz, Thomas Williams and Colin Kelley for making available a valuable tool such as Gnuplot, as well as to the Julien Ponge for IzPack, which we used for creating the installation program.
-
-#### Contact
-Feedback on your experience with HMDM will be greatly appreciated. For any questions and comments please contact [Vedrana Vidulin](mailto:vedrana.vidulin@ijs.si).
