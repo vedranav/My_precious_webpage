@@ -25,11 +25,28 @@ layout: default
     <div class="right">
         <div class="wrap">
             <div class="side content">
-                <div>
-                    Content
-                </div>
-                <ul id="content-side" class="content-ul">
-                </ul>
+                {% if page.links %}
+                    <div>
+                        Links
+                    </div>
+                        <ul class = "content-ul">
+                            {% if site.twitter_username %}
+                                <li><a href = "https://twitter.com/{{site.twitter_username}}" title = "Twitter"><i class = "fa fa-twitter" aria-hidden = "true"></i><span class = "links-list">{{site.twitter_username}}</span></a></li>
+                            {% endif %}
+                            {% if site.linkedIn_username %}
+                                <li><a href = "https://www.linkedin.com/in/{{site.linkedIn_username}}" title = "LinkedIn"><i class = "fa fa-linkedin" aria-hidden = "true"></i><span class = "links-list">{{site.linkedIn_username}}</span></a></li>
+                            {% endif %}
+                            {% if site.github_username %}
+                                <li><a href = "https://github.com/{{site.github_username}}" title = "GitHub"><i class = "fa fa-github" aria-hidden = "true"></i><span class = "links-list">{{site.github_username}}</span></a></li>
+                            {% endif %}
+                        </ul>
+                {% else %}
+                    <div>
+                        Content
+                    </div>
+                    <ul id = "content-side" class = "content-ul">
+                    </ul>
+                {% endif %}
             </div>
         </div>
     </div>
